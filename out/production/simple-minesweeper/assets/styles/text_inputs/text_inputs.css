@@ -1,0 +1,35 @@
+.pane_width_input_box {
+    -fx-background-color: none;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #8dbdf1;
+}
+
+.pane_width_input_box:hover {
+    -fx-background-color: #dbdbdb;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #009ecd;
+}
+
+.pane_height_input_box {
+    -fx-background-color: none;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #8dbdf1;
+}
+
+.pane_height_input_box:hover {
+    -fx-background-color: #dbdbdb;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #009ecd;
+}
+
+.mines_quantity_input_box {
+    -fx-background-color: none;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #8dbdf1;
+}
+
+.mines_quantity_input_box:hover {
+    -fx-background-color: #dbdbdb;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #009ecd;
+}

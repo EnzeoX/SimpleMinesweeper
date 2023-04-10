@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="parent_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.controller.MainMenuController">
+   <children>
+      <Pane fx:id="main_pane" prefHeight="640.0" prefWidth="480.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="BOTTOM" prefHeight="68.0" prefWidth="480.0" style="-fx-background-color: #8dbdf1;" text="MINESWEEPER" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" underline="true">
+               <font>
+                  <Font name="Onyx" size="40.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <Glow level="0.31" />
+               </effect>
+            </Label>
+            <Label fx:id="width_label" alignment="CENTER" layoutX="125.0" layoutY="177.0" prefHeight="25.0" prefWidth="114.0" styleClass="width_label" text="Field width">
+               <font>
+                  <Font name="Britannic Bold" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="pane_width_input_box" accessibleText="10" editable="false" focusTraversable="false" layoutX="256.0" layoutY="176.0" nodeOrientation="LEFT_TO_RIGHT" pickOnBounds="false" prefHeight="25.0" prefWidth="42.0" style="-fx-cursor: none;">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label fx:id="height_label" alignment="CENTER" layoutX="125.0" layoutY="211.0" prefHeight="32.0" prefWidth="114.0" text="Field height">
+               <font>
+                  <Font name="Britannic Bold" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="pane_height_input_box" editable="false" focusTraversable="false" layoutX="256.0" layoutY="213.0" prefHeight="25.0" prefWidth="42.0" style="-fx-cursor: none;">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Label fx:id="mines_quantity_label" alignment="CENTER" layoutX="111.0" layoutY="251.0" prefHeight="32.0" prefWidth="141.0" text="Mines quantity">
+               <font>
+                  <Font name="Britannic Bold" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="mines_quantity_input_box" editable="false" focusTraversable="false" layoutX="256.0" layoutY="253.0" prefHeight="25.0" prefWidth="42.0" style="-fx-cursor: none;">
+               <effect>
+                  <Glow />
+               </effect>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Button fx:id="start_button" layoutX="152.0" layoutY="310.0" mnemonicParsing="false" onAction="#loadGame" prefHeight="43.0" prefWidth="199.0" styleClass="start_button" text="Start" textFill="#00000099">
+               <font>
+                  <Font name="Britannic Bold" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="pane_width_plus" layoutX="309.0" layoutY="176.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" />
+            <Button fx:id="pane_width_minus" layoutX="341.0" layoutY="176.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" styleClass="pane_width_minus" text="-" />
+            <Button fx:id="pane_height_plus" layoutX="309.0" layoutY="214.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" styleClass="pane_height_plus" text="+" />
+            <Button fx:id="pane_height_minus" layoutX="341.0" layoutY="214.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" styleClass="pane_height_minus" text="-" />
+            <Button fx:id="mines_quantity_plus_button" layoutX="309.0" layoutY="254.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" styleClass="mines_quantity_plus_button" text="+" />
+            <Button fx:id="mines_quantity_minus_button" layoutX="341.0" layoutY="254.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" />
+            <Button layoutX="181.0" layoutY="365.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="141.0" text="Options" textFill="#00000098">
+               <font>
+                  <Font name="Britannic Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

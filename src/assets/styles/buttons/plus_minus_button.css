@@ -1,0 +1,121 @@
+.pane_width_plus {
+    -fx-background-color: none;
+    -fx-border-color: none;
+    -fx-border-radius: none;
+}
+
+.pane_width_plus:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #8dbdf1;
+    transition: 0.1s;
+}
+
+.pane_width_plus:pressed {
+    -fx-cursor: hand;
+    -fx-background-color: #008bff;
+}
+
+/* width minus button */
+.pane_width_minus {
+    -fx-background-color: none;
+    -fx-border-color: none;
+}
+
+.pane_width_minus:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #8dbdf1;
+    transition: 0.1s;
+}
+
+.pane_width_minus:pressed {
+    -fx-cursor: hand;
+    -fx-background-color: #008bff;
+}
+
+/* height plus button */
+.pane_height_plus {
+    -fx-background-color: none;
+    -fx-border-color: none;
+}
+
+.pane_height_plus:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #8dbdf1;
+    transition: 0.1s;
+}
+
+.pane_height_plus:pressed {
+    -fx-cursor: hand;
+    -fx-background-color: #008bff;
+}
+
+/* height minus button */
+.pane_height_minus {
+    -fx-background-color: none;
+    -fx-border-color: none;
+}
+
+.pane_height_minus:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #8dbdf1;
+    transition: 0.1s;
+}
+
+.pane_height_minus:pressed {
+    -fx-cursor: hand;
+    -fx-background-color: #008bff;
+}
+
+/* mines quantity plus button */
+.mines_quantity_plus_button {
+    -fx-background-color: none;
+    -fx-border-color: none;
+}
+
+.mines_quantity_plus_button:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #8dbdf1;
+    transition: 0.1s;
+}
+
+.mines_quantity_plus_button:pressed {
+    -fx-cursor: hand;
+    -fx-background-color: #008bff;
+}
+
+/* mines quantity minus button */
+.mines_quantity_minus_button {
+    -fx-background-color: none;
+    -fx-border-color: none;
+}
+
+.mines_quantity_minus_button:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #8dbdf1;
+}
+
+.mines_quantity_minus_button:pressed {
+    -fx-cursor: hand;
+    -fx-background-color: #008bff;
+}
+
+
+/* start button */
+
+.start_button {
+    -fx-background-color: #8dbdf1;
+    -fx-border-color: none;
+}
+
+.start_button:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #51a2ff;
+    -fx-border-color: none;
+}
+
+.start_button:pressed {
+    -fx-cursor: hand;
+    -fx-background-color: #4c64a4;
+    -fx-border-color: none;
+    -fx-text-fill: #ffffff;
+}
